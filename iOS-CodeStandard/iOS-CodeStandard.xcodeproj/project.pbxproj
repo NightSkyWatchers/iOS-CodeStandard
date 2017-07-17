@@ -19,6 +19,7 @@
 		A541C5FF1F1C678800161AC8 /* iOS_CodeStandardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C5FE1F1C678800161AC8 /* iOS_CodeStandardTests.m */; };
 		A541C60A1F1C678800161AC8 /* iOS_CodeStandardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C6091F1C678800161AC8 /* iOS_CodeStandardUITests.m */; };
 		A541C6191F1C68EA00161AC8 /* BIZConsultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */; };
+		A541C61C1F1CB5B700161AC8 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C61B1F1CB5B700161AC8 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		A541C60B1F1C678800161AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A541C6171F1C68EA00161AC8 /* BIZConsultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZConsultModel.h; sourceTree = "<group>"; };
 		A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZConsultModel.m; sourceTree = "<group>"; };
+		A541C61A1F1CB5B700161AC8 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		A541C61B1F1CB5B700161AC8 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		EE2CEC3A99B41266C2A21F6B /* Pods-iOS-CodeStandardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-CodeStandardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-CodeStandardTests/Pods-iOS-CodeStandardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB76B2BF9F2B41EEBE94453D /* Pods-iOS-CodeStandardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-CodeStandardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-CodeStandardUITests/Pods-iOS-CodeStandardUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +153,8 @@
 				A541C5EB1F1C678800161AC8 /* ViewController.m */,
 				A541C6171F1C68EA00161AC8 /* BIZConsultModel.h */,
 				A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */,
+				A541C61A1F1CB5B700161AC8 /* UIColor+Extension.h */,
+				A541C61B1F1CB5B700161AC8 /* UIColor+Extension.m */,
 				A541C5ED1F1C678800161AC8 /* Main.storyboard */,
 				A541C5F01F1C678800161AC8 /* Assets.xcassets */,
 				A541C5F21F1C678800161AC8 /* LaunchScreen.storyboard */,
@@ -470,6 +475,7 @@
 			files = (
 				A541C5EC1F1C678800161AC8 /* ViewController.m in Sources */,
 				A541C5E91F1C678800161AC8 /* AppDelegate.m in Sources */,
+				A541C61C1F1CB5B700161AC8 /* UIColor+Extension.m in Sources */,
 				A541C6191F1C68EA00161AC8 /* BIZConsultModel.m in Sources */,
 				A541C5E61F1C678800161AC8 /* main.m in Sources */,
 			);
@@ -713,6 +719,7 @@
 				A541C6101F1C678800161AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A541C6111F1C678800161AC8 /* Build configuration list for PBXNativeTarget "iOS-CodeStandardTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +728,7 @@
 				A541C6131F1C678800161AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A541C6141F1C678800161AC8 /* Build configuration list for PBXNativeTarget "iOS-CodeStandardUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +737,7 @@
 				A541C6161F1C678800161AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class BIZConsultModel; // 使用@class 来使用一个类, 实现文件中再使用#import 导入,减少交叉编译
+@class BIZConsultModel; // 使用@class 来使用一个类, 实现文件.m中再使用#import 导入,减少交叉编译
 
 /** 枚举遵循苹果官方命名规则：类名 + enum类型名 */
 typedef NS_ENUM(NSUInteger,BIZViewControllerTypeFrom) {
@@ -18,8 +18,13 @@ typedef NS_ENUM(NSUInteger,BIZViewControllerTypeFrom) {
     BIZViewControllerTypeFromMyInfo,
 };
 
-/** 通知名 */
-extern NSString * const BIZViewControllerNotificationName;
+
+// 像这种的定义NSString类型的宏
+#define BIZOneNoticicationName @"BIZOneNotificationName"
+// 可以使用extern声明替代
+extern NSString * const BIZAnotherNotificationName;
+
+
 
 @interface ViewController : UIViewController
 /** 外部变量可用块注释,符合doc规范，属性变量都采取驼峰命名方法 */
