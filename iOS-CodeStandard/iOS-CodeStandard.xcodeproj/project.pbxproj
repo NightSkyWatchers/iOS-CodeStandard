@@ -15,6 +15,7 @@
 		A541C5F41F1C678800161AC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A541C5F21F1C678800161AC8 /* LaunchScreen.storyboard */; };
 		A541C5FF1F1C678800161AC8 /* iOS_CodeStandardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C5FE1F1C678800161AC8 /* iOS_CodeStandardTests.m */; };
 		A541C60A1F1C678800161AC8 /* iOS_CodeStandardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C6091F1C678800161AC8 /* iOS_CodeStandardUITests.m */; };
+		A541C6191F1C68EA00161AC8 /* BIZConsultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A541C6051F1C678800161AC8 /* iOS-CodeStandardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-CodeStandardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A541C6091F1C678800161AC8 /* iOS_CodeStandardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CodeStandardUITests.m; sourceTree = "<group>"; };
 		A541C60B1F1C678800161AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A541C6171F1C68EA00161AC8 /* BIZConsultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZConsultModel.h; sourceTree = "<group>"; };
+		A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZConsultModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A541C5E81F1C678800161AC8 /* AppDelegate.m */,
 				A541C5EA1F1C678800161AC8 /* ViewController.h */,
 				A541C5EB1F1C678800161AC8 /* ViewController.m */,
+				A541C6171F1C68EA00161AC8 /* BIZConsultModel.h */,
+				A541C6181F1C68EA00161AC8 /* BIZConsultModel.m */,
 				A541C5ED1F1C678800161AC8 /* Main.storyboard */,
 				A541C5F01F1C678800161AC8 /* Assets.xcassets */,
 				A541C5F21F1C678800161AC8 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				A541C5EC1F1C678800161AC8 /* ViewController.m in Sources */,
 				A541C5E91F1C678800161AC8 /* AppDelegate.m in Sources */,
+				A541C6191F1C68EA00161AC8 /* BIZConsultModel.m in Sources */,
 				A541C5E61F1C678800161AC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
