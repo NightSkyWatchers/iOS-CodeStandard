@@ -111,6 +111,7 @@ NSString * const YCViewControllerNotificationName = @"aNotification"; // 外部�
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellId];
+    cell.textLabel.text = _dataSource[indexPath.row];
     //    [cell setModel:self.dataSource[indexPath.row]]; // 设置模型
     return cell;
 }
@@ -132,8 +133,6 @@ NSString * const YCViewControllerNotificationName = @"aNotification"; // 外部�
 - (void)layoutUI {
     // UI布局主要为add添加相关，具体配置在get方法中实现
     [self.view addSubview:self.tableView];
-    // 注册cell
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellId];
 }
 
 #pragma mark - getter and setter 懒加载
@@ -141,9 +140,14 @@ NSString * const YCViewControllerNotificationName = @"aNotification"; // 外部�
 - (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.estimatedRowHeight = 50;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
         _tableView.delegate = self;
         _tableView.dataSource = self;
+        // 注册cell
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellId];
         
+
     }
     return _tableView;
 }
